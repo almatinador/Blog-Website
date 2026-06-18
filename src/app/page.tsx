@@ -2,6 +2,8 @@ import LatestArticles from "@/Module/Article/Article";
 import Categories from "@/Module/Categories/Categories";
 import FeaturedPosts from "@/Module/Feature/Feature";
 import HeroSection from "@/Module/Banner/Banner";
+import CTA from "@/Module/Article/Cta/Cta";
+import Testimonials from "@/Module/Testimonial/Testimonial";
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
         <FeaturedPosts />
       </div>
 
+
+
       {/* Categories */}
       <div>
         <Categories />
@@ -25,6 +29,16 @@ export default function Home() {
       {/* article */}
       <div>
         <LatestArticles />
+      </div>
+
+      {/* testimonial */}
+      <div>
+        <Testimonials />
+      </div>
+
+      {/* CTA */}
+      <div>
+        <CTA />
       </div>
     </div>
   );
